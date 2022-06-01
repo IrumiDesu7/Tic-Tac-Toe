@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background-color: rgb(28, 18, 18);
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h3 {
+  margin: 10px;
+  color: white;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+table * {
+  border: 4px solid aliceblue;
+}
+
+table {
+  font-size: 5rem;
+  text-align: center;
+  background-color: #7fb6f1;
+  border: 1px solid saddlebrown;
+}
+
+td {
+  width: 150px;
+  height: 150px;
+  color: rgb(26, 94, 203);
+}
